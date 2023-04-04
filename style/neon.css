@@ -21,49 +21,16 @@
 }
 .neon-quote {
   max-width: 50%;
-  font-size: 2.2rem;
-  animation: pulsate 1.5s infinite alternate;  
+  font-size: 2.2rem; 
   border: 0.12rem solid #fff;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1em;
-  box-shadow: 0 0 .15rem #fff,
-            0 0 .15rem #fff,
-            0 0 1rem #bc13fe,
-            0 0 0.6rem #bc13fe,
-            0 0 1.2rem #bc13fe,
-            inset 0 0 1.1rem #bc13fe; 
-}
-
-
-@keyframes pulsate {
-    
-  100% {
-
-      text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 19px #fff,
-      0 0 35px #bc13fe,
-      0 0 45px #bc13fe,
-      0 0 55px #bc13fe,
-      0 0 60px #bc13fe,
-      0 0 80px #bc13fe;
-  
-  }
-  
-  0% {
-
-    text-shadow:
-    0 0 2px #fff,
-    0 0 4px #fff,
-    0 0 6px #fff,
-    0 0 10px #bc13fe,
-    0 0 30px #bc13fe,
-    0 0 35px #bc13fe,
-    0 0 45px #bc13fe,
-    0 0 60px #bc13fe;
-  }
-
+  box-shadow: 0 0 .10rem #fff,
+            0 0 .10rem #fff,
+            0 0 0.5rem #bc13fe,
+            0 0 0.4rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            inset 0 0 0.2rem #bc13fe; 
 }
 
 @media screen and (max-width: 767px) {
