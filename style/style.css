@@ -1,0 +1,94 @@
+body{
+  background-color: #0f0214;
+  margin: 0;
+  padding: 0;
+}
+
+ .neon-text{
+ 
+  font-weight: 700;
+  font-size: 4rem;
+  text-shadow: -15px 5px 20px #ced0d3;
+  letter-spacing: 0.05em;
+  margin: 0 0 0 20px;
+  padding: 0;
+  color: #ff9108;
+  text-shadow: 2px 2px 2px #FFB650, 
+    4px 4px 2px #FFD662, 
+    6px 6px 2px  #FF80BF, 
+    8px 8px 2px #EF5097, 
+    10px 10px 2px #6868AC, 
+    12px 12px 2px #90B1E0;
+
+  animation-name: example;
+  animation-duration: 4s;
+
+
+}
+
+#basics-of-bitcoin{
+  margin-left: 40px;
+  margin-top: 20px;
+  border-right: 2px solid white;
+  width: 750px;
+  height: 700px;
+}
+
+#basics-of-bitcoin .header{
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 0 0;
+  border-bottom: 4px solid orange;
+  width: 30%;
+}
+
+#basics-of-bitcoin ul{
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 0 0;
+  list-style: none;
+  margin: 20px 0 0 0;
+}
+
+#basics-of-bitcoin ul li{
+  margin-bottom: 15px;
+}
+
+.orange-highlight{
+  color: orange;
+}
+
+
+#quote{
+
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  margin: 15px 0 0 20px;
+  width: 50%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: white;
+}
+
+@keyframes example {
+  from{
+    text-shadow: 0px 0px 0px #FFB650
+  }
+  to{
+    text-shadow: 2px 2px 2px #FFB650, 
+    4px 4px 2px #FFD662, 
+    6px 6px 2px  #FF80BF, 
+    8px 8px 2px #EF5097, 
+    10px 10px 2px #6868AC, 
+    12px 12px 2px #90B1E0;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+  
+  }
+
+
+}
