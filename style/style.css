@@ -117,12 +117,22 @@ body{
     border-bottom: 2px solid orange;
     width: 50%;
   }
-
+  #forewords:before{
+    position: absolute;
+    display: block;
+    content: '. . .';
+    text-align: center;
+    left: 50%;
+    text-shadow: 3px 3px 2px orange;
+    font-size: 4rem;
+    transform: translate(-50%,-100%);
+    color: white;
+  }
   #forewords{
     margin-left: 70px;
   }
   #forewords .content{
-    font-size: 1.2em;
+    font-size: 1.0em;
     text-align: center;
     color: white;
   }
