@@ -29,8 +29,6 @@ body{
 #basics-of-bitcoin{
   margin-left: 40px;
   margin-top: 20px;
-  border-right: 2px solid white;
-  width: 750px;
   height: 700px;
 }
 
@@ -39,8 +37,6 @@ body{
   font-size: 1.8rem;
   font-weight: 700;
   margin: 0 0 0 0;
-  border-bottom: 4px solid orange;
-  width: 30%;
 }
 
 #basics-of-bitcoin ul{
@@ -60,6 +56,20 @@ body{
   color: orange;
 }
 
+#forewords{
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 85px;
+}
+
+#forewords .content{
+    max-width: 70%;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+  }
 
 #quote{
 
@@ -107,6 +117,12 @@ body{
     font-size: 1.4rem;
     border-bottom: 2px solid orange;
     width: 50%;
+  }
+
+  #forewords .content{
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
   }
 
   #basics-of-bitcoin ul{
