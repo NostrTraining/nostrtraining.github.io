@@ -68,8 +68,8 @@
 
 @media screen and (max-width: 767px) {
   .neon-quote {
-    max-width: 80%;
-    font-size: 1.8rem;
+    max-width: 70%;
+    font-size: 1.6rem;
      transform: translate(5%, 0);
   }
 }
