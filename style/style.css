@@ -109,13 +109,16 @@ body{
   #basics-of-bitcoin{
     margin-left: 40px;
     margin-top: 20px;
+    margin-right: 40px;
     border-right: none;
   }
 
   #basics-of-bitcoin .header{
     font-size: 1.4rem;
-    border-bottom: 2px solid orange;
-    width: 50%;
+  }
+
+  #basics-of-bitcoin a{
+    color: royalblue;
   }
   #forewords:before{
     position: absolute;
