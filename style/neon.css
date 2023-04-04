@@ -37,6 +37,6 @@
   .neon-quote {
     max-width: 70%;
     font-size: 1.3rem;
-     transform: translate(5%, 0);
+     transform: translate(10%, 0);
   }
 }
