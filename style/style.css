@@ -118,6 +118,9 @@ body{
     width: 50%;
   }
 
+  #forewords{
+    margin-left: 70px;
+  }
   #forewords .content{
     font-size: 1.2em;
     text-align: center;
