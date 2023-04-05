@@ -136,7 +136,7 @@ body{
 
 .links{
   width: 100wv;
-  padding: 40px 40px 40px 40px;
+  padding-left: 20px; padding-top: 20px; padding-right: 20px;
   font-size: 1.3rem;
   display: flex;
   flex-direction: row;
