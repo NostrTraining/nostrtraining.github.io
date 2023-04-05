@@ -165,6 +165,7 @@ body{
     visibility: visible;
     height: 30px;
    }
+
   .links{
     flex-direction: row;
     flex-wrap: wrap;
@@ -193,7 +194,7 @@ body{
     border: 2px solid #ced0d3;
     box-shadow: 0px 2px 20px #FFB650;
     border-radius: 20px;
-    width: 100%;
+    width: 90%;
   }
 
   #quote{
