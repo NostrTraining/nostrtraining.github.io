@@ -164,14 +164,13 @@ body{
   .phone-divider{
     display: block;
     visibility: visible;
-    height: 30px;
+    height: 15px;
    }
 
   .links{
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 10px;
-    column-gap: 30px;   
+    row-gap: 10px;  
   }
 
   .line{
@@ -195,7 +194,7 @@ body{
     border: 2px solid #ced0d3;
     box-shadow: 0px 2px 20px #FFB650;
     border-radius: 20px;
-    width: 90%;
+    width: 100%;
   }
 
   #quote{
