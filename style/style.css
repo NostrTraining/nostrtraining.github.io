@@ -35,10 +35,7 @@ body{
   color: #ff9108;
   text-shadow: 2px 2px 2px #FFB650, 
     4px 4px 2px #FFD662, 
-    6px 6px 2px  #FF80BF, 
-    8px 8px 2px #EF5097, 
-    10px 10px 2px #6868AC, 
-    12px 12px 2px #90B1E0;
+    6px 6px 2px  #FF80BF;
 
   animation-name: example;
   animation-duration: 4s;
@@ -49,11 +46,13 @@ body{
 .basics-of-bitcoin{
   margin-left: 40px;
   margin-top: 20px;
+  display: inline-block;
 }
 
 .basics-of-bitcoin .header{
   color: white;
   font-size: 1.8rem;
+  display: table;
   font-weight: 700;
   margin: 0 0 0 0;
 }
@@ -65,10 +64,12 @@ body{
   margin: 0 0 0 0;
   list-style: none;
   margin: 20px 0 0 0;
+  display: table;
 }
 
 .basics-of-bitcoin ul li{
   margin-bottom: 15px;
+  display: table;
 }
 .basics-of-bitcoin a{
     color: royalblue;
@@ -104,23 +105,87 @@ body{
   color: white;
 }
 
+.full-width-picture{
+   display: inline-block;
+   margin-left: 125px;
+}
+
+.full-width-picture img{
+  border: 2px solid #ced0d3;
+  box-shadow: 0px 2px 20px #FFB650;
+  border-radius: 20px;
+  width: 100%;
+}
+.line{
+  position: relative; 
+  width: 80vw; height: 5px; 
+  background-color: white; 
+  margin-left: 2.5vw; 
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
 @keyframes example {
   from{
     text-shadow: 0px 0px 0px #FFB650
   }
   to{
-    text-shadow: 2px 2px 2px #FFB650, 
-    4px 4px 2px #FFD662, 
-    6px 6px 2px  #FF80BF, 
-    8px 8px 2px #EF5097, 
-    10px 10px 2px #6868AC, 
-    12px 12px 2px #90B1E0;
+    text-shadow: 2px 2px 2px #FFB650;
   }
 }
+
+.links{
+  width: 100wv;
+  padding: 40px 40px 40px 40px;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+}
+
+.links a{
+  color: royalblue;
+   text-decoration: none;
+   display: table;
+   border-radius: 40px;
+   font-weight: bold;
+    position: relative;
+
+}
+
 @media screen and (max-width: 767px) {
   body {
   
   }
+
+  .links{
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 2px;    
+  }
+
+  .line{
+    width: 90vw; height: 5px; 
+  }
+
+  .links a{
+    flex-wrap: wrap;
+  }
+
+  .full-width-picture{
+    margin-top: 50px;
+    margin-left: 0;
+    width: 100wv;
+    padding: 0px 10% 0px 10%;
+
+  }
+
+  .full-width-picture img{
+    border: 2px solid #ced0d3;
+    box-shadow: 0px 2px 20px #FFB650;
+    border-radius: 20px;
+    width: 100%;
+  }
+
   #quote{
 
     border-top: 2px solid white;
